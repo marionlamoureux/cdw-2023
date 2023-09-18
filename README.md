@@ -16,7 +16,7 @@ Analyze Stored Data
 ## Introduction
 This workshop gives you an overview of how to use the Cloudera Data Warehouse service to quickly explore raw data, create curated versions of the data for reporting and dashboarding, and then scale up usage of the curated data by exposing it to more users. It highlights the performance and automation capabilities that help ensure performance is maintained while controlling cost.  
 
-Enitiy-Relation Diagram of tables we use in todays workshop: 
+Entity-Relation Diagram of tables we use in todays workshop: 
 - fact table: flights (86mio rows) 
 - dimension tables: airlines (1.5k rows), airports (3.3k rows) and planes 
 ![](images/
@@ -421,7 +421,7 @@ when not matched
  then insert values (sub.code, sub.description, current_date(), null);
 ```
 
-Confirm that te new data is updated, table should have 1493 records.
+Confirm that the new data is updated, table should have 1493 records.
 
 ```sql
 select count(*) from airlines_scd;
