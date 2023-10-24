@@ -19,7 +19,6 @@ This workshop gives you an overview of how to use the Cloudera Data Warehouse se
 Entity-Relation Diagram of tables we use in todays workshop: 
 - fact table: flights (86mio rows) 
 - dimension tables: airlines (1.5k rows), airports (3.3k rows) and planes 
-![](images/
 ![](images/Aspose.Words.10bb90cf-0d99-47f3-a995-23ef2b90be86.002.png)
 
 -----
